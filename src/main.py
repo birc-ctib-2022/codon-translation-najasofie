@@ -93,7 +93,8 @@ if __name__ == '__main__':
         case 3:
             # two arguments -- open argv[1] for infile and argv[2]
             # for outfile
-            infile = open(sys.argv[2], "w")
+            infile = (open(sys.argv[1]))
+            outfile = open(sys.argv[2], "w")
             #print("Feature not implemented yet.", file=sys.stderr)
             #sys.exit(1)
         case _:
